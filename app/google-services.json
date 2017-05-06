@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "645322550738",
+    "firebase_url": "https://animeister-607c8.firebaseio.com",
+    "project_id": "animeister-607c8",
+    "storage_bucket": "animeister-607c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645322550738:android:ee3ea4dc11ba7b74",
+        "android_client_info": {
+          "package_name": "com.example.rohil.animeister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645322550738-0h04p8bs14kh2aa0f7s98hfnnmnf35ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHRNXkInVkT0XDfHbhrdrh3zPZoN4-YZI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

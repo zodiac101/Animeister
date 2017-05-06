@@ -1,0 +1,141 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.rohil.animeister.AboutUsActivity"
+    android:orientation="vertical">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/imageViewAboutUs"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"/>
+
+            <TextView
+                android:id="@+id/fullscreen_content"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:keepScreenOn="true"
+                android:text="The Manga and Anime Club has always had one objective, to unite a growing community of people/MITians and most of all to revel in this amazing culture. India especially has a growing and enthusiastic community who adore this medium and the stories and characters it brings to life. The Manga and Anime Club is a very unique club which seeks to bring these people together."
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:layout_weight="0.3"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:padding="10dp"
+                android:layout_weight="0.10">
+
+                <TextView
+                    android:text="Facebook"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:paddingLeft="40dp"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:text="facebook.com/animeatmanipal"
+                    android:textColorLink="@color/cardview_light_background"
+                    android:layout_width="0dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewEventVenue"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_gravity="center_vertical"
+                    android:autoLink="web"
+                    android:paddingLeft="15dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:padding="10dp"
+                android:layout_weight="0.10">
+
+                <TextView
+                    android:text="Email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:paddingLeft="40dp"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewEventDate"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:paddingLeft="15dp"
+                    android:text="mangaanimeclubmit@gmail.com"
+                    android:textColorLink="@color/cardview_light_background"
+                    android:autoLink="email"
+                    android:textSize="15sp"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:padding="10dp"
+                android:layout_weight="0.10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:text="Phone"
+                    android:textColor="#FFFFFF"
+                    android:paddingLeft="40dp"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewEventTime"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:paddingLeft="15dp"
+                    android:autoLink="phone"
+                    android:textColorLink="@color/cardview_light_background"
+                    android:text="+918884500477"
+                    android:textSize="15sp"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</android.support.design.widget.CoordinatorLayout>
